@@ -1,52 +1,273 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-  
-    
+
+
 }
+
 /* Header style */
-header{
+header {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient( to top,rgb(0, 0, 0),rgb(0, 0, 0,0.5)
-    ),url('images/donation5.jpg');
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 0, 0, 0.5)), url('images/donation5.jpg');
     background-blend-mode: darken;
-   
+
 
 }
-.header-content{
+
+.header-content {
     color: #fff;
     max-width: 800px;
     margin: 0 auto;
     padding-top: 100px;
     text-align: center;
-    
+
 }
-.header-title{
+
+.section-title {
     font-size: 55px;
     font-weight: 700;
     margin-top: 120px;
     padding-bottom: 20px;
 
+
 }
-.header-description{
-    color: rgb(214, 208, 208);
+
+.section-description {
     font-size: 18px;
     padding: 20px 0;
+    color: rgb(212, 207, 207);
+    font-family: Roboto system-ui, Roboto, sans-serif;
+
 }
-.btn-primary{
+
+.btn-primary {
     margin: 15px 0;
     background-color: #FF5959;
     color: #fff;
     padding: 15px 25px;
-    border-radius:5px ;
+    border-radius: 5px;
     font-size: 20px;
+    border: 0;
 }
-.btn-primary:hover{
-    background-color: rgb(100, 112, 112);
+
+.btn-primary:hover {
+    background-color: rgb(23, 24, 24);
     border: 5px solid #FF5959;
     padding: 15px 55px;
 }
+
 /* main section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.donate-today {
+    color: #000;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.donate-today p {
+    color: #696666;
+}
+
+.donate-box-content {
+    margin-top: 20px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 60px;
+
+}
+
+.donate-box {
+    background-color: #f5ebeb;
+    color: #535151;
+    padding: 35px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.donate-box:hover {
+    border: 3px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border-radius: 5px;
+
+}
+
+.donate-subtitle {
+    color: #757373;
+    padding: 20px;
+
+}
+
+hr {
+    width: 770px;
+    margin: 0 auto;
+}
+
+/* our-donate-plan style */
+.our-donate-plan {
+    color: #000;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+
+
+}
+
+.our-donate-plan p {
+    color: #696666;
+}
+
+.donate-plan-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.donate-plan-item {
+
+    border-radius: 5px;
+    text-align: left;
+    width: 280px;
+    height: 240px;
+    padding: 45px 22px;
+}
+
+.donate-plan-item img {
+    margin-bottom: 20px;
+}
+
+.donate-plan-item-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.donate-plan-item-description {
+
+    line-height: 25px;
+    color: #696666;
+
+}
+
+.item1 {
+    background-color: #EDF5F6;
+
+}
+
+.item2 {
+    background-color: #FFEEEE;
+
+}
+
+.item3 {
+    background-color: #FFF4D6;
+
+}
+
+/* they-lives style */
+.they-lives {
+    display: flex;
+    gap: 100px;
+    margin-top: 120px;
+
+}
+
+.they-live-content {
+    width: 40%;
+    
+}
+
+.they-lives-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.they-lives-description {
+    font-size: 18px;
+    padding: 20px 0;
+    color: rgb(94, 92, 92);
+    font-family: Roboto system-ui, Roboto, sans-serif;
+}
+
+.btn-how {
+    background-color: #FF5959;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 0;
+
+}
+.they-img {
+    border-radius: 5px;
+    width: 440px;
+    height: 450px;
+  
+}
+.get-my{
+    color: #000;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 100px;
+  
+
+}
+.get-my p{
+    color: #696666;
+
+}
+
+.contact-input{
+    padding: 80px 0;
+   background-color: #f3d4d4;
+    margin-top: 25px;
+}
+input{
+    padding: 10px 25px;
+    background-color: #bdb7b7;
+    
+    border: 0;
+    border-radius: 5px;
+   
+}
+.contact-input-btn{
+    background-color: #FF5959;
+    color: #fff;
+    border: 0;
+    margin-left: -10px ;
+    padding: 10px 25px;
+    border-radius: 2px;
+    
+}
+/* footer */
+footer{
+    padding: 80px 0;
+    background-color: #0B0D17;
+    text-align: center;
+}
+.footer-title{
+ font-size: 40px;
+ font-family: roboto;
+    color: #FF5959;
+    margin-bottom: 20px;
+}
+.footer-description{
+    color: #bec4c4;
+}
